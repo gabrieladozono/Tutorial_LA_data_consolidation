@@ -36,10 +36,13 @@ Para conectar os componentesn é necessário ligar uma bolinha na outra.
 > Iremos configurar esse componente mais para frente.
 
 ## 4. Definindo a descrição para a LLM
-Depois de conectar o componente IBM Watson AI, é hora de configurar a descrição (prompt) que orienta o comportamento do modelo.
+Depois de conectar o componente IBM watsonx.ai, é hora de configurar a descrição (prompt) que orienta o comportamento do modelo.
 Essa descrição define como a LLM deve interpretar o pedido do usuário e gerar a saída no formato JSON correto.
-- Clique na caixa da LLM (IBM Watson AI).
-- No campo Prompt, substitua o conteúdo padrão pela seguinte descrição:
+- Clique no componente do watsonx.ai.  
+- CLique na caixinha abaixo de templete para editar o prompt e apague o texto existente.  
+- Copie o conteúdo do arquivo abaixo e cole dentro do campo de prompt:  
+
+👉🏼 [Clique aqui para visualizar e copiar o arquivo `prompt_llm.txt`](LLM.txt)
 
 ## 5. Adicionando um componente customizado ao fluxo
 Agora, vamos inserir um componente customizado no fluxo.
@@ -52,8 +55,11 @@ Esse componente contém um código personalizado que você pode importar ou cola
 </p>
 - Copie o conteúdo do arquivo abaixo, cole dentro do editor e clique em salvar.
 
-👉🏼[Clique aqui para baixar o arquivo `custom_component.py`](langflow.py)
+👉🏼 [Clique aqui para baixar o arquivo `custom_component.py`](langflow.py)
 > **É necessário apagar todo o código padrão do componente antes de colar o código novo**
+
+Por enquanto o fluxo está nesse formato:
+
 
 
 
