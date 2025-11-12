@@ -63,6 +63,17 @@ Por enquanto o fluxo está nesse formato:
   <img src="imagens/fluxo1.png" alt="Fluxo por enquanto" width="500">
 </p>
 
+## 6. Adicionando o componente Type Convert
+Agora que o componente customizado já está no fluxo, vamos adicionar o componente **Type Convert**, que serve para transformar o formato da saída antes de seguir para o próximo nó.
+- No painel lateral esquerdo, abra a aba Components.
+- Procure pelo componente Type Convert.
+- Arraste-o para dentro do fluxo.
+- Conecte a saída do Custom Component à entrada do Type Convert.
+- No componente selecione Message.
+- 
+<p align="center"> <img src="imagens/typeconvert_message.png" alt="Configuração do componente TypeConvert para Message" width="600"> </p>
+💡 Dica:
+Essa conversão garante que o formato da resposta gerada pelo componente customizado seja compatível com a entrada da LLM (ou de outros nós que esperam mensagens como tipo de dado).
 
 
 
