@@ -17,4 +17,14 @@ Na janela de modelos, selecione o template chamado “Basic Prompting”.
 
 ![Exemplo do template Basic Prompting](imagens/basic_prompting.png)
 
-Clique em “Create” para carregar o fluxo no editor.
+## 3. Substituindo a LLM pelo modelo IBM Watson AI
+O fluxo **“Basic Prompting”** vem com uma caixinha de modelo de linguagem padrão.
+Antes de rodar o fluxo, vamos substituí-la pelo componente da IBM watsonx.ai.
+Clique sobre a caixa da LLM existente no fluxo e clique em **delete**
+No painel lateral esquerdo, vá até a aba Components.
+No campo de busca, digite “IBM”.
+Arraste o componente chamado **IBM watsonx.ai** para dentro do fluxo. É a segunda caixinha da lista
+
+![Componente IBM watsonx.ai]()
+
+Conecte-o novamente à caixa de entrada (Input) e à caixa de saída (Output), da mesma forma que estava o modelo anterior.
