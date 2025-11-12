@@ -95,7 +95,7 @@ Agora que temos a segunda LLM configurada, é necessário conectar sua saída à
 - Conecte a saída da segunda LLM à entrada do Output.
 
 <p align="center"> 
-  <img src="imagens/typeconvert.png" alt="Configuração do componente TypeConvert para Message" width="400"> 
+  <img src="imagens/fluxo2.png" alt="Fluxo completo" width="600"> 
 </p>
 
 ✅ Pronto! O fluxo agora está completo.
