@@ -70,12 +70,24 @@ Agora que o componente customizado já está no fluxo, vamos adicionar o compone
 - Arraste-o para dentro do fluxo.
 - Conecte a saída do Custom Component à entrada do Type Convert.
 - No componente selecione Message.
-- 
-<p align="center"> <img src="imagens/typeconvert_message.png" alt="Configuração do componente TypeConvert para Message" width="600"> </p>
-💡 Dica:
-Essa conversão garante que o formato da resposta gerada pelo componente customizado seja compatível com a entrada da LLM (ou de outros nós que esperam mensagens como tipo de dado).
+  
+<p align="center"> 
+  <img src="imagens/typeconvert.png" alt="Configuração do componente TypeConvert para Message" width="400"> 
+</p>
 
+💡Essa conversão garante que o formato da resposta gerada pelo componente customizado seja compatível com a entrada da LLM (ou de outros nós que esperam mensagens como tipo de dado).
 
+## 7. Duplicando a LLM e o Prompt
+O próximo passo é criar uma segunda LLM que receberá os dados processados e formatará as respostas.
+Para isso, é necessário duplicar os blocos existentes da LLM e do Prompt original ou arrastar os componetes da lista de componentes.
+- Para duplicar, selecione o componente, clique nos três pontinhos e clique em duplicar. O mesmo é feito se clicar em cima do componente e clicar Ctrl + D.
+- Arraste as cópias para do lado do type convert.
+- Conecte a saída do type convert à entrada do novo watsonx.ai.
+- Conecte a saída do novo Prompt à entrada da nova LLM.
+
+No novo prompt da LLM, copie o conteúdo do arquivo abaixo, cole dentro do editor e clique em salvar.
+
+👉🏼 [Clique aqui para visualizar e copiar o arquivo `prompt_llm.txt`](LLM.txt)
 
 
 
