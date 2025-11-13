@@ -144,19 +144,22 @@ Para adicionar o project ID e a API key:
 - Copie o valor de "Project ID" e cole no campo **"watson Project ID"** nas caixinhas do watsonx.ai no Langflow.
 
 <p align="center"> 
-  <img src="imagens/projectid.png" alt="Project ID" width="200"> 
+  <img src="imagens/projectid.png" alt="Project ID" width="400"> 
 </p>
 
 - Volte para a caixinha "Developer access" no watsonx e clique em **criar chave API**. Qualquer nome pode ser dado.
 
 <p align="center"> 
-  <img src="imagens/key.png" alt="API key" width="200"> 
+  <img src="imagens/key.png" alt="API key" width="400"> 
 </p>
 
 - Copie o valor e cole no campo "API Key" nas caixinhas do watsonx.ai no Langflow.
 
 <p align="center"> 
-  <img src="imagens/apikey.png" alt="API key" width="200"> 
+  <img src="imagens/apikey.png" alt="API key" width="400"> 
 </p>
+
+✅ Pronto! Agora o fluxo está pronto para ser usado!
+
 
 
