@@ -117,8 +117,24 @@ Para **mudar o caminho** local da planilha:
 
 Para adicionar o project ID e a API key:
 - Na IBM cloud, acesse a aba da lista de recursos (4 tracinhos no canto superior esquerdo).
-- Clique em watsonx, localizado na canto inferior.
-- 
 
+<p align="center"> 
+  <img src="imagens/listaderecursos.png" alt="Lista de recursos" width="300"> 
+</p>
+  
+- Clique em watsonx, localizado na canto inferior.
+- Clique em "iniciar" na caixinha **watsonx**
+
+<p align="center"> 
+  <img src="imagens/watsonx.png" alt="watsonx" width="200"> 
+</p>
+
+- Descendo um pouco a página crie um novo projeto. É necessário apenas um nome.
+
+<p align="center"> 
+  <img src="imagens/projeto.png" alt="Projeto" width="200"> 
+</p>
+  
+- 
 
 
