@@ -105,14 +105,20 @@ Apesar do fluxo estar completo, ele ainda não rodará completamente. Agora é n
 - O caminho local da planilha
 - O project ID e a API key, necessários para rodar a LLM.
 
-Para mudar o caminho local da planilha:
+Para **mudar o caminho** local da planilha:
 - Entre no código do componente customizado.
 - Troque o caminho da planilha pelo novo caminho.
+- Essa parte ta na linha 269 do código
+- Verifique se o caminho esta entre aspas
 
 <p align="center"> 
-  <img src="imagens/fluxo2.png" alt="Fluxo completo" width="600"> 
+  <img src="imagens/caminhoplanilha.png" alt="Caminho da planilha" width="500"> 
 </p>
 
+Para adicionar o project ID e a API key:
+- Na IBM cloud, acesse a aba da lista de recursos (4 tracinhos no canto superior esquerdo).
+- Clique em watsonx, localizado na canto inferior.
+- 
 
 
 
