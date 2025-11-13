@@ -167,5 +167,5 @@ Para adicionar o project ID e a API key:
 Para rodar uma pergunta há duas opções:
 - Escrever a pergunta dentro da caixinha do input e depois clicar no símbolo de play na caixinha do output.
 - Ou entrar no playground, no canto superior direito, e mandar a pergunta.
-> A resposta sempre estará no playground, independente da forma que o fluxo foi rodado
+> A resposta sempre estará no playground, independente da forma que o fluxo foi rodado.
 
