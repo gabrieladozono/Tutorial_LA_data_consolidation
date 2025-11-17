@@ -118,6 +118,14 @@ Para **mudar o caminho** local da planilha:
 </p>
 
 Para adicionar o project ID e a API key:
+-  Reserve o ambiente do watsonx na techzone. Busque por "watsonx Orchestrate Trial/Standard plan".
+
+<p align="center"> 
+  <img src="imagens/reserva.png" alt="Reserva ambiente" width="300"> 
+</p>
+
+> Link Techzone: https://techzone.ibm.com/home
+
 - Na IBM cloud, acesse a aba da lista de recursos (4 tracinhos no canto superior esquerdo).
 
 <p align="center"> 
