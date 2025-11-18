@@ -7,7 +7,8 @@ O objetivo é auxiliar usuários a entenderem como importar, configurar e execut
 
 ## 1. Baixando o Langflow
 
-Antes de começar, é necessário ter o **Langflow** instalado no seu computador. O aplicativo está disponível na loja da IBM.
+Antes de começar, é necessário ter o **Langflow** instalado no seu computador. O aplicativo deve ser instalado pelo site do Langflow.
+> Site: https://www.langflow.org
 
 ## 2. Abrindo um fluxo do tipo Basic Prompting
 
