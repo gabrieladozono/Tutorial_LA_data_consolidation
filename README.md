@@ -111,7 +111,7 @@ Apesar do fluxo estar completo, ele ainda não rodará completamente. Agora é n
 Para **mudar o caminho** local da planilha:
 - Entre no código do componente customizado.
 - Troque o caminho da planilha pelo novo caminho.
-- Essa parte ta na linha 269 do código
+- Essa parte está na linha 269 do código
 - Verifique se o caminho esta entre aspas
 
 <p align="center"> 
