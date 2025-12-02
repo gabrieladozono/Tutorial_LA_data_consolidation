@@ -67,7 +67,7 @@ Por enquanto o fluxo está nesse formato:
 ## 6. Adicionando o componente Type Convert
 Agora que o componente customizado já está no fluxo, vamos adicionar o componente **Type Convert**, que serve para transformar o formato da saída antes de seguir para o próximo nó.
 - No painel lateral esquerdo, abra a aba Components.
-- Procure pelo componente Type Convert.
+- Procure pelo componente **Type Convert**.
 - Arraste-o para dentro do fluxo.
 - Conecte a saída do Custom Component à entrada do Type Convert.
 - No componente selecione Message.
@@ -94,7 +94,7 @@ No novo prompt da LLM, copie o conteúdo do arquivo abaixo, cole dentro do edito
 Agora que temos a segunda LLM configurada, é necessário conectar sua saída à caixa de Output, para que o resultado final apareça quando o fluxo for executado.
 - Localize o componente Output no canto direito do fluxo.
 - Conecte a saída da segunda LLM à entrada do Output.
-- Na opção "watson API Endpoint" selecione a primeira opção (DataCenter dos EUA).
+- Na opção "watson API Endpoint" selecione a primeira opção (**DataCenter dos EUA**).
 - E na opção "Model Name" escolha o modelo de linguagem que quer usar.
 > Faça esses dois últimos pontos nas duas LLMs.
 
@@ -120,7 +120,7 @@ Para **mudar o caminho** local da planilha:
 </p>
 
 Para adicionar o project ID e a API key:
--  Reserve o ambiente do watsonx na techzone. Busque por "watsonx Orchestrate Trial/Standard plan".
+-  Reserve o ambiente do watsonx na techzone. Busque por **"watsonx Orchestrate Trial/Standard plan"**.
 
 <p align="center"> 
   <img src="imagens/reserva.png" alt="Reserva ambiente" width="300"> 
