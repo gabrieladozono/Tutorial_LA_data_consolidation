@@ -14,7 +14,7 @@ Antes de começar, é necessário ter o **Langflow** instalado no seu computador
 
 Com o Langflow aberto:
 Clique em **“New Flow”** no canto superior direito.
-Na janela de modelos, selecione o template chamado “Basic Prompting”.
+Na janela de modelos, selecione o template chamado **“Basic Prompting”**.
 
 <p align="center">
   <img src="imagens/basic_prompting.png" alt="Exemplo do template Basic Prompting" width="400">
@@ -22,10 +22,10 @@ Na janela de modelos, selecione o template chamado “Basic Prompting”.
 
 ## 3. Substituindo a LLM pelo modelo IBM Watson AI
 O fluxo **“Basic Prompting”** vem com uma caixinha de modelo de linguagem padrão.
-Antes de rodar o fluxo, vamos substituí-la pelo componente da IBM watsonx.ai.
+Antes de rodar o fluxo, vamos substituí-la pelo componente da **IBM watsonx.ai**.
 - Clique sobre a caixa da LLM existente no fluxo e clique em **delete**
 - No painel lateral esquerdo, vá até a aba Components.
-- No campo de busca, digite “IBM”.
+- No campo de busca, digite **“IBM”**.
 - Arraste o componente chamado **IBM watsonx.ai** para dentro do fluxo. É a segunda caixinha da lista
 
 <p align="center">
